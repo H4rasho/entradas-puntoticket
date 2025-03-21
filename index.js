@@ -5,7 +5,7 @@ import "dotenv/config";
 const {
   USER: user,
   PASSWORD: password,
-  BROWSERS_TO_OPEN: browsersToOpen,
+  BROWSERS_TO_OPEN: browsersToOpen = 10,
   URL_TO_OPEN: url,
 } = process.env;
 
